@@ -24,6 +24,8 @@ services:
       - ZS_DBHost=zabbix.db
       - ZS_DBUser=zabbix
       - ZS_DBPassword=my_password
+      # for Japanese language user
+      - ZBX_GRAPH_FONT_NAME=ipagp
 volumes:
   zabbix-db-storage:
     driver: local
